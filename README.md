@@ -13,7 +13,7 @@ Pneumonia can range in seriousness from mild to life-threatening. It is most ser
 
 
 ## Dataset
-Here we are importing directly from kaggle, since it is a large dataset. Go to Kaggle and generate an api token. A .json file will downloaded. Upload it when you run the second cell.
+Here we are **importing data directly from kaggle**, since it is a large dataset. Go to Kaggle and generate an api token. A .json file will downloaded. Upload it when you run the second cell. A prompt will be asked to upload a file when the code is run. 
 
 [DataSet](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
@@ -36,4 +36,8 @@ All these architectures are used on this large image datasets to **fine-tune** t
 ## Results
 The accuracy on different models are as follows:
 ![Results](results.png)
+
+
+## Platform
+Since my machine do not have a GPU support , I have used **Google Colab** as a platfom to do this project and used the free **T4 GPU** runtime. 
 
